@@ -1,0 +1,14 @@
+.container{
+    background-color: #424369;
+}
+h1{
+    color: #424369;
+}
+.btn-primary {
+background-color: #424369;
+font-weight: bolder;
+border-color: #424369;
+}
+.btn-primary:hover{
+    background-color: #6f71aa;
+}
