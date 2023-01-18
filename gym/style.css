@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 :root{
-	--primary-color: #d63031;
+	--primary-color: #424369;
 	--secondary-color: #636e72;
 	--font: 'Poppins', sans-serif;
 }
@@ -49,9 +49,19 @@ nav{
 	width: 15%;
 	font-weight: 700;
 	background: var(--primary-color);
+	
 }
-
-.logo::before{
+.logo1{
+	height: min-content;
+	padding-left: 40px;
+}
+.bt{
+	background-color: #636e72;
+}
+.justify{
+	text-align: justify;
+}
+/* .logo::before{
 	content: "GYM";
 	color: white;
 }
@@ -59,7 +69,7 @@ nav{
 	content: "Today";
 	color: black;
 }
-
+*/
 ul{
 	display: flex;
 	align-items: center;
@@ -127,5 +137,3 @@ ul a:hover{
 .card h2{
 	text-transform: uppercase;
 }
-
-
