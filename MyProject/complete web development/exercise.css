@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+	--primary-color: #424369;
+	--secondary-color: #636e72;
+	--font: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+	
+}
+
+.btn{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: var(--primary-color);
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 4px solid var(--primary-color);
+	transition: .3s;
+	cursor: pointer;
+	margin-top:5px;
+	border-radius: 10px;
+	box-shadow: 	6px 7px 11px 0px rgba(0,0,0,0.34);
+border:	1px solid rgba(0,0,0,0.1);
+border-radius:	4px;
+
+}
+.btn:hover{
+	background:rgba(10, 16, 71, 0.58);
+}
+body{
+	background: #fff;
+	font-family: var(--font);
+}
+
+nav{ background-color: #424369;
+	width: 100vw;
+	height: 65px;
+	border-top: .5rem solid var(--primary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999999;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 15%;
+	font-weight: 700;
+	background: var(--primary-color);
+	
+}
+.logo1{
+	height: min-content;
+	padding-left: 40px;
+	width:200px;
+	height:49px;
+}
+.bt{
+	background-color: #636e72;
+}
+.justify{
+	text-align: justify;
+	margin:10px;
+}
+/* .logo::before{
+	content: "GYM";
+	color: white;
+}
+.logo::after{
+	content: "Today";
+	color: black;
+}
+*/
+ul{
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+ul a{
+	text-decoration: none;
+	color: white;
+	margin: 0 2rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	font-weight: 700;
+	font-size: 16px;
+}
+ul li{
+	list-style: none;
+}
+ul a:hover{
+	color:black;
+}
+
+.banner{
+	background: url(img/yoga.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+transition: 5s;
+	height: 85vh;
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration:18s;
+	animation-fill-mode: forwards;
+	animation-iteration-count:infinite ;
+	animation-play-state: running;
+	animation-timing-function:ease-in-out;
+	background-color: #424369;
+}
+/* changes */
+@keyframes animate{
+    0%
+    {
+        background-image: url(img/sporlab-XiZ7pRvCzro-unsplash.jpg);
+    }
+    20%{
+        background-image: url(img/bruce-mars-HHXdPG_eTIQ-unsplash.jpg);
+    }
+    40%
+    {
+        background-image: url(img/gabin-vallet-J154nEkpzlQ-unsplash.jpg);
+    }
+    60%
+    {
+        background-image: url(img/element5-digital-acrBf9BlfvE-unsplash.jpg);
+    }
+    80%
+    {
+        background-image: url(img/graham-mansfield-y7ywDXWJ-JU-unsplash.jpg);
+    }
+    100%
+    {
+        background-image: url(img/bruce-mars-gJtDg6WfMlQ-unsplash.jpg);
+    }
+}
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+}
+
+.intro h2,p{
+	display: block;
+	width: 60%;
+}
+
+.intro h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.intro .btn{
+	margin-top: 2rem;
+}
+
+.row{
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	margin-top: 10px;
+	align-items: center;
+	background-image: url("bg3.jpg");
+	background-size: cover;
+}
+.card{
+	width: 70%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 3%;
+	 margin: 10px ; 
+	 box-shadow: 	0px 3px 3px 0px rgba(0,0,0,0.12),
+		0px 3px 6px 0px rgba(0,0,0,0.22),
+		0px 5px 10px 0px rgba(0,0,0,0.2),
+		0px 8px 12px 1px hsla(0, 0%, 0%, 0.19);
+border:	1px solid rgba(0,0,0,0.03);
+border-radius:	6px;
+
+}
+.card h2{
+	text-transform: uppercase;
+}
+.cont-1{
+	background-color:black;
+	height:40vh;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-1{
+	height:85%;
+	width:23%;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img/bruce-mars-HHXdPG_eTIQ-unsplash.jpg);
+    }
+    20%
+    {
+        background-image: url(img/sporlab-XiZ7pRvCzro-unsplash.jpg);
+    }
+    
+}
+
+  .logo2{
+	padding-top: 0;
+	width: 200px;
+	height: 100px;
+  }
+  body{
+	margin:0;
+	overflow-x:hidden;
+	}
+	
+	.footer{
+	background:#424369;
+	padding:30px 0px;
+	font-family: 'Play', sans-serif;
+	text-align:center;
+	}
+	
+	.footer .row1{
+	width:100%;
+	margin:1% 0%;
+	padding:0.6% 0%;
+	color:white;
+	font-size:0.8em;
+	}
+	
+	.footer .row1 a{
+	text-decoration:none;
+	color:white;
+	transition:0.5s;
+	}
+	
+	.footer .row1 a:hover{
+	color:white;
+	}
+	
+	.footer .row1 ul{
+	width:100%;
+	}
+	
+	.footer .row1 ul li{
+	display:inline-block;
+	margin:0px 30px;
+	}
+	
+	.footer .row1 a i{
+	font-size:2em;
+	margin:0% 1%;
+	}
+	
+	@media (max-width:720px){
+	.footer{
+	text-align:left;
+	padding:5%;
+	}
+	.footer .row1 ul li{
+	display:block;
+	margin:10px 0px;
+	text-align:left;
+	}
+	.footer .row1 a i{
+	margin:0% 3%;
+	}
+	}
+    .card-deck{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card-img-top{
+        margin-top: 10px;
+        width: 70%;
+        height: 80%;
+    }
+.a1{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px;
+}
+.a1:hover{
+    color: #424369;
+}
+.card-title{
+    padding-top: 10px;
+    font-size: large;
+}
+.h2-yog{
+    margin:auto;
+    margin-top: 20px;
+    background-color: #424369;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    height:50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.card{
+    background-color: #636e72;
+}
+.head{
+    align-items: center;
+    text-align: center;
+}
