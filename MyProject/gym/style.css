@@ -67,6 +67,7 @@ nav{ background-color: #424369;
 	width:200px;
 	height:49px;
 }
+
 .bt{
 	background-color: #636e72;
 }
@@ -287,3 +288,132 @@ border-radius:	6px;
 	margin:0% 3%;
 	}
 	}
+
+	/* .box-info{
+		display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 24px;
+	margin-top: 36px;
+	}
+	.box-info{
+		padding: 24px;
+	background: var(--light);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	grid-gap: 24px;
+	} */
+	#product1{
+		text-align: center;
+		padding-top: 40px;
+	}
+	#product1 .pro-container{
+		display:flex;
+		padding-top: 20px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	#product1 .pro{
+		width:23%;
+		min-width:250px;
+		padding: 10px 12px;
+		border:1px solid #cce7d0;
+		border-radius: 25px;
+		cursor:pointer;
+		box-shadow:20px 20px 30px rgba(0,0,0,0.02);
+		margin:15px 0;
+		transition: 0.2 ease;
+		position: relative;
+	}
+	#product1 .pro:hover{
+		box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+	}
+	#product1 .pro img{
+		width:100%;
+		border-radius: 20px;
+	
+	}
+	#product1 .pro .des{
+		text-align: start;
+		padding:10px 0;
+	}
+	#product1 .pro .des span{
+		color:#606063;
+		font-size: 12px;
+	
+	}
+	#product1 .pro .des h5{
+		padding-top: 7px;
+		color:#1a1a1a;
+		font-size: 14px;
+	}
+	#product1 .pro .des i{
+		font-size: 12px;
+		color:rgba(243,181,25);
+	}
+	#product1 .pro .des h4{
+		padding-top:7px;
+		font-size: 15px;
+		font-weight: 700;
+		color: #088178;
+	}
+	#product1 .pro .cart{
+		width:40px;
+		height:40px;
+		line-height: 40px;
+		border-radius: 50px;
+		background-color: #e8f6ea;
+		/* font-weight: 500; */
+		color:#088178;
+		border:1px solid #cce7d0;
+		position: absolute;
+		bottom: 20px;
+		right:10px;
+	}
+
+
+	.to-do{
+		height:450px;
+	}
+
+	.card-deck{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card-img-top{
+        margin-top: 10px;
+        width: 70%;
+        height: 80%;
+    }
+.a1{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px;
+}
+.a1:hover{
+    color: #424369;
+}
+.card-title{
+    padding-top: 10px;
+    font-size: large;
+}
+.h2-yog{
+    margin:auto;
+    margin-top: 20px;
+    background-color: #424369;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    height:50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.card{
+    background-color: #b5cad1;
+}
